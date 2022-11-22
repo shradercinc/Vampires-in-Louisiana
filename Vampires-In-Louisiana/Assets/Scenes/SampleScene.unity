@@ -902,6 +902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 2084819158}
   Name: Knife
+  PName: KnifeImg
   Dist: 5
 --- !u!1 &1576081124
 GameObject:

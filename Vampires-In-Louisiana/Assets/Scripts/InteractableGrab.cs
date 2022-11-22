@@ -8,6 +8,7 @@ public class InteractableGrab : MonoBehaviour
     private bool isclose;
     private Transform Pos;
     public string Name;
+    public Texture2D Img;
     public float Dist;
     private Vector3 dir;
     // Start is called before the first frame update
@@ -36,6 +37,7 @@ public class InteractableGrab : MonoBehaviour
             if (hit.transform.tag == "Player")
             {
                 print("Hit!");
+                Player.GetComponent<InventoryManager>().Inv.Add(new InventoryManager.Inventory(Name, Img));
             }
         }
     }
