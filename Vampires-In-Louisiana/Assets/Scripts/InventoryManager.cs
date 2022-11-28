@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -15,12 +16,14 @@ public class InventoryManager : MonoBehaviour
             InIcon = newIcon;
         }
     }
+
     public List<Inventory> Inv = new List<Inventory>();
-        
+    private TMP_Text Tex;
     private bool checking = false;
     // Start is called before the first frame update
     void Start()
     {
+        Tex = GameObject.FindGameObjectWithTag("Inven").GetComponent<TMP_Text>();
     }
 
     // Update is called once per frame
