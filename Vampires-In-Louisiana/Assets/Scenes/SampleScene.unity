@@ -786,6 +786,7 @@ GameObject:
   - component: {fileID: 1361027779}
   - component: {fileID: 1361027778}
   - component: {fileID: 1361027777}
+  - component: {fileID: 1361027782}
   m_Layer: 0
   m_Name: Interactable
   m_TagString: Untagged
@@ -887,6 +888,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &1361027782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361027776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c41da32d8d56b4c8058df6d60e1588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 2084819158}
+  Name: Knife
+  PName: KnifeImg
+  Dist: 5
 --- !u!1 &1576081124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,9 +1129,10 @@ GameObject:
   - component: {fileID: 2084819159}
   - component: {fileID: 2084819163}
   - component: {fileID: 2084819164}
+  - component: {fileID: 2084819165}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,3 +1245,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WalkSpeed: 5
+--- !u!114 &2084819165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084819158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281cc97bb7fd62b44a723f3a169cec41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
