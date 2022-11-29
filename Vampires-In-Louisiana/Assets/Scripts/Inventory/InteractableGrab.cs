@@ -8,7 +8,7 @@ public class InteractableGrab : MonoBehaviour
     private bool isclose;
     private Transform Pos;
     public string Name;
-    public Texture2D Img;
+    public Sprite Img;
     public float Dist;
     private Vector3 dir;
     // Start is called before the first frame update
