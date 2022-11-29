@@ -20,10 +20,12 @@ public class InventoryManager : MonoBehaviour
     public List<Inventory> Inv = new List<Inventory>();
     private TMP_Text Tex;
     private bool checking = false;
+    public float Iheight = 0;
     // Start is called before the first frame update
     void Start()
     {
         Tex = GameObject.FindGameObjectWithTag("Inven").GetComponent<TMP_Text>();
+        Iheight = Tex.fontSize;
     }
 
     // Update is called once per frame
@@ -32,14 +34,20 @@ public class InventoryManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.I))
         {
             checking = !checking;
+            Tex.text = "";
+            foreach (Inventory x in Inv)
+            {
+                Tex.text += x.InName + "\n \n";
+                print(x.InName + " with " + x.InIcon);
+            }
         }
         if (checking == true)
         {
-            foreach (Inventory x in Inv)
-            {
-                print(x.InName + " with " + x.InIcon);
-            }
-            checking = false;
+            Tex.enabled = true;
+        }
+        else
+        {
+            Tex.enabled = false;
         }
     }
 }
