@@ -1,0 +1,42 @@
+Key,Speaking Character,Line
+WakeUp,Narrator,Your head is killing you. There is a sharp pain in your neck that won't go away.
+,,
+Story,Narrator,You got bit.
+,,
+AilHint,Vela,I gotta cover this thing somehow. I need time to figure out what to do with myself.
+,,
+NightTime,Vela,"By the time your head hit the pillow, the entire wound had miraculously closed. Only a slight scar remained. You went to bed."
+,,
+MostPosResponse,Mama,"Hey, girl. Rise and shine. I was starting to wonder where you were. "
+,Narrator,"She glances at the scarf wrapped around your neck, hiding the bite. "
+,Mama,"Oh, where did you find that scarf? Did you go scavenging recently?"
+,Vela,"Oh, this? Uh, yeah. Got lucky."
+,Mama,I've been looking for one myself. That one's lovely on you.
+,Narrator,She smiles and faces back to her work.
+,Mama,The people 'round camp have missed you. You should go say hi to everyone before you head back in.
+,,
+PosResponse,Mama,How are you feeling? You've been locked in your little cave for a while now. You got a fever?
+,Narrator,She reaches toward your forehead with the back of her hand to feel your temperature. You immediately swing back before she can feel how icy-cold your skin is.
+,Mama,Whoa whoa whoa! Nevermind then! 
+,Narrator,"She played it off jokingly, but you can tell that she was a little taken aback. "
+,Vela,I'm just on a walk. Still feel like crap.
+,Mama,Alright. I'm here if you need me.
+,Vela,I know. Thanks Ma. 
+,,
+MidResponse,Mama,Vela. Its been a bit since you were out here! 
+,Mama,"Good lord, you look like crap. What happened?"
+,Vela,Nothing major. 
+,Mama,How very non-specific. I don't believe you.
+,Narrator,"She eyes you up and down, looking for a sign of anything that could've happened. As she's about to ask something, you spit out an excuse."
+,Vela,It's none of your business. 
+,Narrator,She frowns. Intensely. You regret the way that it came out. 
+,Mama,Right. 
+,,
+NegResponse,Vela,"Hey, Ma. "
+,Narrator,"She looks up at you from her work and jumps, eyes wide at your condition. "
+,Mama,"Jesus Vela, you scared me. Where is all that blood coming from? "
+,Narrator,"She reaches toward you, but you dodge before she can do anything. She looks angry in response to this."
+,Vela,Uh- It's nothing. It was supposed to be funny!
+,Narrator,The lie works with little to no success. 
+,Mama,What is wrong with you? You're scaring people. You're scaring me. Go get cleaned up.
+,Mama,You're lucky I'm not Maria. She'd have shot you dead by now. 
