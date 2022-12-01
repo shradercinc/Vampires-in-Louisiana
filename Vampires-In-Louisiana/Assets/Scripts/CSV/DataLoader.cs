@@ -10,38 +10,74 @@ public class DataLoader : MonoBehaviour
     List<Dictionary<string, object>> mydata;
     public string day; //which sheet to access
 
-    public string key; //label for the type of dialogue
-    public string speakingName; //character display name
-    public string line; //spoken line
-
     public TMP_Text textName; //display boxes
     public TMP_Text textLine;
 
-    void fetchDialogue()
+    public string sceneKey; //name of scene -- same as the key on the google sheet.
+
+    public int offset = -1;
+    List<string> currentDialogue = new List<string>();
+    List<string> currentSpeaker = new List<string>();
+
+    private void Start()
     {
         mydata = CSVReader.Read(day);
+    }
 
-        for (int i = 0; i < mydata.Count - i; i++)  //runs down the table 
+
+    void fetchDialogue()
+    {
+       // Debug.Log("fetching!");
+
+        string key;
+        textName.enabled = true;
+        textLine.enabled = true;
+
+        for (int i = 0; i < mydata.Count; i++) //runs down entire list 
         {
-            Debug.Log("Key: " + mydata[i]["Key"]); // give it a row index, access via column
-                                                   //Debug.Log(mydata[i]["Speaking Character"]);
-                                                   //Debug.Log(mydata[i]["Line"]);
+            key = mydata[i]["Key"].ToString(); //converts list into readable string
 
-            speakingName = mydata[i]["Speaking Character"].ToString();
-            line = mydata[i]["Line"].ToString();
+            if (key == sceneKey) //if the list runs into the scene key string on sheet...
+            {
+                //add i with matching key to the current dialogue list 
+                currentDialogue.Add(mydata[i]["Line"].ToString());
+                currentSpeaker.Add(mydata[i]["Speaking Character"].ToString());
+            }
 
         }
-
-       
 
     }
 
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        
+        Debug.Log(currentDialogue.Count);
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            fetchDialogue();
+            if(currentDialogue.Count == 0)
+            {
+                fetchDialogue();
+            }
+
+            offset++;
+
+            if (offset == currentDialogue.Count)
+            {
+                currentSpeaker.Clear();
+                currentDialogue.Clear();
+                offset = -1;
+                textLine.enabled = false;
+                textName.enabled = false;
+                sceneKey = null;
+            }
+
         }
+
+        textLine.text = currentDialogue[offset];
+        textName.text = currentSpeaker[offset];
+
     }
 }
