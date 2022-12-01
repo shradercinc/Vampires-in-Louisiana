@@ -13,15 +13,18 @@ public class DataLoader : MonoBehaviour
     public TMP_Text textName; //display boxes
     public TMP_Text textLine;
 
-    public string sceneKey; //name of scene -- same as the key on the google sheet.
+    public string sceneKey = null; //name of scene -- same as the key on the google sheet.
 
     public int offset = -1;
-    List<string> currentDialogue = new List<string>();
-    List<string> currentSpeaker = new List<string>();
+    public List<string> currentDialogue = new List<string>();
+    public List<string> currentSpeaker = new List<string>();
 
     private void Start()
     {
+        textLine.enabled = false;
+        textName.enabled = false;
         mydata = CSVReader.Read(day);
+
     }
 
 
@@ -32,6 +35,8 @@ public class DataLoader : MonoBehaviour
         string key;
         textName.enabled = true;
         textLine.enabled = true;
+        sceneKey = GetComponent<DisplayDialogue>().sceneKeyCall;
+
 
         for (int i = 0; i < mydata.Count; i++) //runs down entire list 
         {
@@ -72,6 +77,7 @@ public class DataLoader : MonoBehaviour
                 textLine.enabled = false;
                 textName.enabled = false;
                 sceneKey = null;
+
             }
 
         }
