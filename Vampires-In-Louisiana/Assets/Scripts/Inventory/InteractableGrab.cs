@@ -7,7 +7,7 @@ public class InteractableGrab : MonoBehaviour
     public GameObject Player;
     private bool isclose;
     private Transform Pos;
-    public string Name;
+    public string Name; 
     public Sprite Img;
     public float Dist;
     private Vector3 dir;

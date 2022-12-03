@@ -6,10 +6,14 @@ using UnityEngine.EventSystems;
 
 public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    //passed by inventory manager
+    public Sprite Txr;
+    public GameObject InventoryManager;
+    public int listNo;
+
     public GameObject pl;
     private Transform pos;
     private Image img;
-    public Sprite Txr;
     private Vector3 home;
     private bool isOver = false;
     private bool isDrag = false;
@@ -17,6 +21,8 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private bool touchBody = false;
     private Vector3 bPos;
     public GraphicRaycaster GRay;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +50,8 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         img.enabled = pl.GetComponent<InventoryManager>().checking;
         if (Input.GetKeyDown(KeyCode.I))
         {
+            print("delete");
+            Destroy(this.transform.GetChild(0).gameObject);
             Destroy(this.gameObject);
         }
 
@@ -61,7 +69,7 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             GRay.Raycast(eventdata, resualts);
             foreach (var resualt in resualts)
             {
-                if (resualt.gameObject.CompareTag("Body"))
+                if (resualt.gameObject.CompareTag("Body") && isDrag == true)
                 {
                     touchBody = true;
                     bPos = resualt.gameObject.GetComponent<Transform>().position;
@@ -71,6 +79,9 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             }
             if (touchBody == true)
             {
+                InventoryManager.GetComponent<InventoryManager>().Inv.RemoveAt(listNo);
+                Destroy(this.transform.GetChild(0).gameObject);
+                Destroy(this.gameObject);
                 pos.position = bPos;
                 locked = true;
             } else pos.position = home;
