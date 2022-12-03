@@ -82,7 +82,13 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 InventoryManager.GetComponent<InventoryManager>().Inv.RemoveAt(listNo);
                 Destroy(this.transform.GetChild(0).gameObject);
                 Destroy(this.gameObject);
-                pos.position = bPos;
+                var ListItems = GameObject.FindGameObjectsWithTag("Icon");
+                foreach (var x in ListItems)
+                {
+                    Destroy(x.transform.GetChild(0).gameObject);
+                    Destroy(x.gameObject);
+                }
+                InventoryManager.GetComponent<InventoryManager>().RedoList = true;
                 locked = true;
             } else pos.position = home;
             isDrag = false;

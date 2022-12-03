@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1042364810179704618}
   m_Layer: 5
   m_Name: Icon
-  m_TagString: Untagged
+  m_TagString: Icon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,10 +90,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4eb46758e65904cbf0b339713f7c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pl: {fileID: 0}
   Txr: {fileID: 0}
-  GRay: {fileID: 0}
   InventoryManager: {fileID: 0}
+  listNo: 0
+  pl: {fileID: 0}
+  GRay: {fileID: 0}
 --- !u!1 &1163695759456007090
 GameObject:
   m_ObjectHideFlags: 0
