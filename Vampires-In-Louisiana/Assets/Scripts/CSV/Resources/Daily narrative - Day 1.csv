@@ -1,0 +1,92 @@
+Key,Speaking Character,Line
+Intro,Narrator,Your head is killing you. There is a sharp pain in your neck that won't go away.
+Intro,Narrator,The events of the past night flash before your eyes in pinpricks. 
+Intro,Narrator,Two glowing eyes. A dozen needles in your neck. A million bats flying around inside your head.
+Intro,Narrator,Your knuckles are bruised from struggle and you're lucky you got out alive.
+Intro,Narrator,There isn't really time to dwell on it though. You got bit.
+Intro,Narrator,And now you've gotta deal with it.
+,,
+WakeUp,Narrator,The sun is glaring down on your face from a broken window as you stir awake. 
+WakeUp,Narrator,"Luckily, you managed to crawl back to camp last night without anyone seeing your wound. "
+WakeUp,Narrator,"It was a stupid decision to go out on your own, but it had been so long since you had any privacy. The apocalypse really doesn't let people have any alone time."
+WakeUp,Narrator,The campgrounds have been suffocating. You've always been the odd one out.
+WakeUp,Narrator,"Masking whatever your insides have been telling you, just going along with what everyone expects."
+WakeUp,Narrator,Parading around like you know what you're doing gets exhausting.
+WakeUp,Narrator,"This is the result of that, I suppose."
+WakeUp,Narrator,Inside and outside are matching now. Vampire symptoms will be hitting you soon. 
+,,
+AilHint,Vela,"Ugh, god."
+AilHint,Narrator,"You peel yourself up from your bed. In the reflection of what is left of the shattered window, you see the bite mark on your neck."
+AilHint,Narrator,"It felt like a bunch of pins and needles, but it looks like someone took a beartrap to you. The wound scabbed over and stopped bleeding. It still looks awful, though. "
+AilHint,Vela,I gotta cover this thing somehow. In a way that won't make it obvious. I need time to figure out what to do with myself.
+,,
+NightTime,Narrator,"By the time your head hit the pillow, the entire wound had miraculously closed. Only a slight scar remained. You went to bed."
+,,
+,,
+,,
+,,
+MAMA_MPR,Mama,"Hey, girl. Rise and shine. I was starting to wonder where you were. "
+MAMA_MPR,Narrator,"She glances at the scarf wrapped around your neck, hiding the bite. "
+MAMA_MPR,Mama,"Oh, where did you find that scarf? Was that from scavenging recently?"
+MAMA_MPR,Vela,"Oh, this? Uh, yeah. Got lucky."
+MAMA_MPR,Mama,I've been looking for one myself. That one's lovely on you.
+MAMA_MPR,Narrator,She smiles and faces back to her work.
+MAMA_MPR,Mama,The people 'round camp have missed you. You should go say hi to everyone before you head back in.
+,,
+MAMA_PR,Mama,How are you feeling? You've been locked in your little cave for a while now. You got a fever?
+MAMA_PR,Narrator,She reaches toward your forehead with the back of her hand to feel your temperature. You immediately swing back before she can feel how icy-cold your skin is.
+MAMA_PR,Mama,Whoa whoa whoa! Nevermind then! 
+MAMA_PR,Narrator,"She played it off jokingly, but you can tell that she was a little taken aback. "
+MAMA_PR,Vela,I'm just on a walk. Still feel like crap.
+MAMA_PR,Mama,Alright. I'm here if you need me.
+MAMA_PR,Vela,I know. Thanks Ma. 
+,,
+MAMA_MR,Mama,Vela. Its been a bit since you were out here! 
+MAMA_MR,Mama,"Good lord, you look like crap. What happened?"
+MAMA_MR,Vela,Nothing major. 
+MAMA_MR,Mama,How very non-specific. I don't believe you.
+MAMA_MR,Narrator,"She eyes you up and down, looking for a sign of anything that could've happened. As she's about to ask something, you spit out an excuse."
+MAMA_MR,Vela,It's none of your business. 
+MAMA_MR,Narrator,She frowns. Intensely. You regret the way that it came out. 
+MAMA_MR,Mama,Right. 
+,,
+MAMA_NR,Vela,"Hey, Ma. "
+MAMA_NR,Narrator,"She looks up at you from her work and jumps, eyes wide at your condition. "
+MAMA_NR,Mama,"Jesus Vela, you scared me. Where is all that blood coming from? "
+MAMA_NR,Narrator,"She reaches toward you, but you dodge before she can do anything. She looks angry in response to this."
+MAMA_NR,Vela,Uh- It's nothing. It was supposed to be funny!
+MAMA_NR,Narrator,The lie works with little to no success. 
+MAMA_NR,Mama,What is wrong with you? You're scaring people. You're scaring me. Go get cleaned up.
+MAMA_NR,Mama,You're lucky I'm not Maria. She'd have shot you dead by now. 
+,,
+JEAN_MPR,Jean,Vela! You've finally crawled out. Back in the swing of things?
+JEAN_MPR,Vela,Mostly. I'm still a little-
+JEAN_MPR,Jean,Well! There is always stuff to be done! We're here if you feel up to it. I've been struggling to find enough tomato soup cans to work on this new receipe...
+JEAN_MPR,Narrator,"You nod, holding back a slight cringe. You never feel up to it, but least of all now. Jean has a problem with asking for help and then promptly complaining about said help when it arrives."
+JEAN_MPR,Narrator,"You can't really say that, though."
+JEAN_MPR,Vela,Of course.
+JEAN_MPR,Narrator,"As you turn away, you can sense passive-aggressive fog floating above the chef."
+,,
+JEAN_PR,Narrator,"As you walk towards the kitchen, you see Jean, the camp's favorite chef, bustling around the tent and mumbling to himself."
+JEAN_PR,Jean,Didn't I tell Maria to make sure no one waltzes in here while I'm in the middle of my-
+JEAN_PR,Jean,"Oh, Vela. Good to see you're feeling a little better."
+JEAN_PR,Vela,"Yeah, thanks. "
+JEAN_PR,Narrator,You only just realize he's holding about 30 different root vegetables in one arm.
+JEAN_PR,Jean,I'm a little busy. Actually a lot busy. Talk later. So many vegetables.
+JEAN_PR,Narrator,Jean sinks further into the back of the kitchen and becomes completely unreachable. You take that as a sign to leave.
+,,
+JEAN_MR,Jean,"Yikes- oh, uh. Sorry. You don't look too hot."
+JEAN_MR,Jean,What are you doing out here? You should go back inside.
+JEAN_MR,Jean,"Or at the very least, get out of my kitchen."
+,,
+,,
+JEAN_NR,Narrator,The chef briefly glaced up at you and immediately looked away with repulsion. 
+JEAN_NR,Jean,"You know, it's not wise to be in the kitchen when you're sick."
+JEAN_NR,Narrator,"He stares straight at you, not even trying to hold back irritation."
+JEAN_NR,Narrator,It would be wise to keep up appearances. People are quick to judge.
+JEAN_NR,Narrator,You back away from the kitchen and he shuffles back to his work alone.
+,,
+,,
+RAND_PR,Camper,Pos
+RAND_MR,Camper,Mid 
+RAND_NR,Camper,Neg
