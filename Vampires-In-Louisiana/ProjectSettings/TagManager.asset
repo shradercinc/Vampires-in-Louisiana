@@ -8,6 +8,7 @@ TagManager:
   - Body
   - Board
   - Icon
+  - NPC
   layers:
   - Default
   - TransparentFX
