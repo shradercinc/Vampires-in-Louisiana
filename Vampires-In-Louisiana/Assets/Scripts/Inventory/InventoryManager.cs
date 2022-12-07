@@ -56,11 +56,11 @@ public class InventoryManager : MonoBehaviour
             Tex.text = "";
             LP = 0;
 
-            /*
-            if (Tex.text == "")
+
+            if (Inv.Count == 0)
             {
                 Tex.text = "Inventory Empty";
-            } */
+            }
         }
         if (checking == true)
         {
@@ -73,9 +73,10 @@ public class InventoryManager : MonoBehaviour
                     var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
                     ick.GetComponent<Icon>().Txr = x.InIcon;
                     ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                    ick.GetComponent<Icon>().itemName = x.InName;
                     ick.GetComponent<Icon>().InventoryManager = this.gameObject;
                     ick.GetComponent<Icon>().listNo = LP;
-                    print(x.InName + " with " + x.InIcon);
+                    //print(x.InName + " with " + x.InIcon);
                     LP++;
                 }
                 ListMade = true;
@@ -99,9 +100,10 @@ public class InventoryManager : MonoBehaviour
                 var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
                 ick.GetComponent<Icon>().Txr = x.InIcon;
                 ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                ick.GetComponent<Icon>().itemName = x.InName;
                 ick.GetComponent<Icon>().InventoryManager = this.gameObject;
                 ick.GetComponent<Icon>().listNo = LP;
-                print(x.InName + " with " + x.InIcon);
+                //print(x.InName + " with " + x.InIcon);
                 LP++;
             }
             RedoList = false;   

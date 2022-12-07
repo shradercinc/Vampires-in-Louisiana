@@ -10,6 +10,7 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Sprite Txr;
     public GameObject InventoryManager;
     public int listNo;
+    public string itemName;
 
     public GameObject pl;
     private Transform pos;
@@ -33,6 +34,7 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         img = GetComponent<Image>();
         img.sprite = Txr;
         home = pos.position;
+        print("Generate" + itemName);
     }
 
     public void OnPointerEnter(PointerEventData data)
@@ -69,12 +71,29 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             GRay.Raycast(eventdata, resualts);
             foreach (var resualt in resualts)
             {
+
                 if (resualt.gameObject.CompareTag("Body") && isDrag == true)
                 {
-                    touchBody = true;
-                    bPos = resualt.gameObject.GetComponent<Transform>().position;
-                    resualt.gameObject.GetComponent<Image>().sprite = img.sprite;
-                    break;
+                    var usable = false;
+                    foreach(var x in resualt.gameObject.GetComponent<Bodypart>().usable)
+                    {
+                        if (x == itemName)
+                        {
+                            usable = true;
+                            print(x);
+                            touchBody = true;
+                            bPos = resualt.gameObject.GetComponent<Transform>().position;
+                            resualt.gameObject.GetComponent<Image>().sprite = img.sprite;
+                            resualt.gameObject.GetComponent<Bodypart>().itemString = itemName;
+                            print(itemName + "/" + resualt.gameObject.name);
+                            break;
+                        }
+
+                    }
+                    if (usable == false)
+                    {
+                        print(itemName + " Not usable on " + resualt.gameObject.name);
+                    }
                 }
             }
             if (touchBody == true)
