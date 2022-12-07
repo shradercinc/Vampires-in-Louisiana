@@ -6,9 +6,10 @@ using UnityEngine.UI;
 
 public class Bodypart : MonoBehaviour
 {
-
+    public string[] usable; 
     private bool checking = false;
     private Image img;
+    public string itemString = "";
 
     // Start is called before the first frame update
     void Start()

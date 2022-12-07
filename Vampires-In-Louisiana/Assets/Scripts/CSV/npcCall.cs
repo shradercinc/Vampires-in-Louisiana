@@ -14,18 +14,22 @@ public class npcCall : MonoBehaviour
     public string MNR;
 
     public string sceneSend; //scene being told to the dialogue display.
-    public int socialStat;
+    public float socialStat;
+
+    public GameObject alignmentManager;
 
     private void Start()
     {
-        socialStat = 0; //TEST STAT PLEASE CHANGE LATER to get component on stat machine
+        alignmentManager = GameObject.FindGameObjectWithTag("Aligner");
+        socialStat = alignmentManager.GetComponent<AilmentManager>().alignment; //TEST STAT PLEASE CHANGE LATER to get component on stat machine
     }
 
 
     public void Update()
     {
+        socialStat = alignmentManager.GetComponent<AilmentManager>().alignment;
         //MPR = 2
-        if (socialStat == 2)
+        if (socialStat >= 2)
         {
             sceneSend = MPR;
 
@@ -53,7 +57,7 @@ public class npcCall : MonoBehaviour
 
         //MNR = -2
         else
-        if (socialStat == -2)
+        if (socialStat <= -2)
         {
             sceneSend = MNR;
         }

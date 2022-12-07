@@ -108,7 +108,7 @@ public class DataLoader : MonoBehaviour
     void Update()
     {
         
-        print(storyState);
+        //print(storyState);
 
         //for story prompt----------------------------
         if (storyTime)

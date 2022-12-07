@@ -5,9 +5,9 @@ using UnityEngine;
 public class AilmentManager : MonoBehaviour
 {
     public string problem;
+    public float alignment = 0;
     public GameObject Head;
     public GameObject ArmR;
-    public GameObject ArmL;
     public GameObject Torso;
     public GameObject Legs;
     public string[] Best;
@@ -23,6 +23,40 @@ public class AilmentManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        alignment = 0;
+        var headItem = Head.GetComponent<Bodypart>().name + "/Head";
+        var armItem = ArmR.GetComponent<Bodypart>().name + "/Arm";
+        var torsoItem = ArmR.GetComponent<Bodypart>().name + "/Torso";
+        var legItem = ArmR.GetComponent<Bodypart>().name + "/Leg";
+
+        foreach (var x in Best)
+        {
+            if (headItem == x || armItem == x || torsoItem == x || legItem == x)
+            {
+                alignment += 2;
+            }
+        }
+        foreach (var x in Good)
+        {
+            if (headItem == x || armItem == x || torsoItem == x || legItem == x)
+            {
+                alignment += 1;
+            }
+        }
+        foreach (var x in Bad)
+        {
+            if (headItem == x || armItem == x || torsoItem == x || legItem == x)
+            {
+                alignment -= 1;
+            }
+        }
+        foreach (var x in Worst)
+        {
+            if (headItem == x || armItem == x || torsoItem == x || legItem == x)
+            {
+                alignment -= 2;
+            }
+        }
+
     }
 }
