@@ -244,6 +244,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8808306396487563539}
     m_Modifications:
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[0]
+      value: Towel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[1]
+      value: Bandages
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[2]
+      value: BodyLotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[3]
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[4]
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[5]
+      value: Axe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233864201142938633, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[6]
+      value: Blanket
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404419713206107446, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: Best.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404419713206107446, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: Good.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2963488060890045052, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 225
@@ -304,6 +344,54 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 225
       objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[0]
+      value: Scarf
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[1]
+      value: Towel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[2]
+      value: FacialTissue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[3]
+      value: CowboyHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[4]
+      value: SurgicalMask
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[5]
+      value: Bandages
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[6]
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[7]
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[8]
+      value: MetalMask
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[9]
+      value: Makeup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163507058773753954, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[10]
+      value: Blanket
+      objectReference: {fileID: 0}
     - target: {fileID: 6035981105595706006, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 60
@@ -312,6 +400,46 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -125
       objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[0]
+      value: LongsleeveShirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[1]
+      value: Towel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[2]
+      value: Bandages
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[3]
+      value: BodyLotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[4]
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[5]
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[6]
+      value: Basket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[7]
+      value: Axe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521371637310636270, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[8]
+      value: Blanket
+      objectReference: {fileID: 0}
     - target: {fileID: 8754437498833556110, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 225
@@ -319,6 +447,50 @@ PrefabInstance:
     - target: {fileID: 8754437498833556110, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -290
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[0]
+      value: Scarf
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[1]
+      value: Towel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[2]
+      value: LongsleeveShirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[3]
+      value: Bandages
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[4]
+      value: BigJacket
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[5]
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[6]
+      value: Knife
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[7]
+      value: Basket
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[8]
+      value: Axe
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
+      propertyPath: usable.Array.data[9]
+      value: Blanket
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
