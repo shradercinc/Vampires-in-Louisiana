@@ -25,13 +25,14 @@ public class InteractableGrab : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         dir = Player.transform.position - Pos.position;
         if(Physics.Raycast(Pos.position, dir, out RaycastHit struck, Dist))
         {
             //print("In range");
             Debug.DrawRay(Pos.position, dir, Color.red);
         }
+        
         if (Input.GetKeyDown(KeyCode.E) && Physics.Raycast(Pos.position, dir, out RaycastHit hit, Dist))
         {
             if (hit.transform.tag == "Player")

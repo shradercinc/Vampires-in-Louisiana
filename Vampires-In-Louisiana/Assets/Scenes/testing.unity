@@ -2231,6 +2231,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1793511503177148887, guid: 2871c63ec1321944a83025f4c990ff88, type: 3}
   m_PrefabInstance: {fileID: 164622582}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &164622584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7160020044427116695, guid: 2871c63ec1321944a83025f4c990ff88, type: 3}
+  m_PrefabInstance: {fileID: 164622582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &164622585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164622584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c41da32d8d56b4c8058df6d60e1588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Name: Scarf
+  Img: {fileID: 21300000, guid: f8c6a1f4b283a9746a205bb0d23d53a0, type: 3}
+  Dist: 0
 --- !u!4 &168394626 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 472700, guid: d638ef2ca2fe20c4c9c08e125692d3f4, type: 3}
@@ -4561,6 +4582,10 @@ PrefabInstance:
     - target: {fileID: 8808306396487563551, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: m_Name
       value: Canvas (Inventory System)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808306397196038463, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
+      propertyPath: m_margin.z
+      value: -344.39233
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9616b101655bded4c8ec121cddac7993, type: 3}

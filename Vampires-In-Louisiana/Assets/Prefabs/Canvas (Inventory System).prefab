@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: usable.Array.data[2]
-      value: LongsleeveShirt
+      value: Shirt
       objectReference: {fileID: 0}
     - target: {fileID: 9053971510663953752, guid: fccbceed8a5b2314aa653300f6b133b0, type: 3}
       propertyPath: usable.Array.data[3]
