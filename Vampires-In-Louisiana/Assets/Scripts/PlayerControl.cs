@@ -10,7 +10,9 @@ public class PlayerControl : MonoBehaviour
 
     private Transform pos;
     private Rigidbody rb;
-    // Start is called before the first frame update
+    bool dialogueUp;
+    public GameObject dialogueObj;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -19,9 +21,14 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(0, rb.velocity.y, 0);
-        rb.velocity += transform.forward * XInput * WalkSpeed;
-        rb.velocity += transform.right * ZInput * WalkSpeed;
+        dialogueUp = dialogueObj.GetComponent<DataLoader>().textLine.enabled;
+
+        if (dialogueUp == false)
+        {
+            rb.velocity = new Vector3(0, rb.velocity.y, 0);
+            rb.velocity += transform.forward * XInput * WalkSpeed;
+            rb.velocity += transform.right * ZInput * WalkSpeed;
+        }     
     }
 
     // Update is called once per frame
