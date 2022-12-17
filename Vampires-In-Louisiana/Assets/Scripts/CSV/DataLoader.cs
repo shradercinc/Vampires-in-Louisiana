@@ -42,7 +42,6 @@ public class DataLoader : MonoBehaviour
     {
         if(target.gameObject.tag == "NPC")
         {
-            Debug.Log("woohoo!");
             near = true;
             sceneKey = target.gameObject.GetComponent<npcCall>().sceneSend;            
         }
@@ -108,7 +107,6 @@ public class DataLoader : MonoBehaviour
     void Update()
     {
         
-        //print(storyState);
 
         //for story prompt----------------------------
         if (storyTime)
@@ -167,7 +165,6 @@ public class DataLoader : MonoBehaviour
 
     public void fetchDialogue(string keyType)
     {
-        Debug.Log("fetching!");
 
         string key;
         textName.enabled = true;
