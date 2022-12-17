@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DataLoader : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class DataLoader : MonoBehaviour
     public string currentText;
     public int storyState = 0;
     bool storyTime = true;
+    public Image blackScreen;
+    public Image dialogueBox;
 
     private void Start()
     {
@@ -61,6 +64,8 @@ public class DataLoader : MonoBehaviour
         {
             //intro text--------------------
                 case 0:
+                dialogueBox.enabled = false;
+                blackScreen.enabled = true;
                 introKey = "Intro";
                 storyTime = true;
                 fetchDialogue(introKey);
@@ -79,6 +84,7 @@ public class DataLoader : MonoBehaviour
 
             //night time text
             case 5:
+                blackScreen.enabled = true;
                 storyTime = true;
                 offset = 0;
                 currentSpeaker.Clear();
@@ -91,6 +97,7 @@ public class DataLoader : MonoBehaviour
 
             //npc interaction during day
             default:
+                blackScreen.enabled = false;
                 storyTime = false;
                 currentSpeaker.Clear();
                 currentDialogue.Clear();
@@ -136,6 +143,7 @@ public class DataLoader : MonoBehaviour
                 if (currentDialogue.Count == 0)
                 {
                     fetchDialogue(sceneKey);
+                    dialogueBox.enabled = true;
                 }
 
                 offset++;
@@ -147,12 +155,13 @@ public class DataLoader : MonoBehaviour
                     offset = -1;
                     textLine.enabled = false;
                     textName.enabled = false;
+                    dialogueBox.enabled = false;
                     sceneKey = null;
                 }
             }
         } 
         else
-        if (Input.GetKey(KeyCode.B))
+        if (Input.GetKey(KeyCode.B))   //TESTING KEY FOR GOING TO BED ****************************
         {
             storyState = 5;
             Greet();
