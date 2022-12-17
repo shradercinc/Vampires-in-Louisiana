@@ -3,7 +3,11 @@ guid: 07c41da32d8d56b4c8058df6d60e1588
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - TextPlatform: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - Message: {fileID: 454577983736698029, guid: 3ba0828b2b953a2429c7f36586117895, type: 3}
+  - Img: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

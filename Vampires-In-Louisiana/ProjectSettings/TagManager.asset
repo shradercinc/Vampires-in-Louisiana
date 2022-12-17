@@ -9,6 +9,7 @@ TagManager:
   - Board
   - Icon
   - NPC
+  - Alert
   layers:
   - Default
   - TransparentFX

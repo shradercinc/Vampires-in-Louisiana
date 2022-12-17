@@ -443,7 +443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07c41da32d8d56b4c8058df6d60e1588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextPlatform: {fileID: 0}
   Player: {fileID: 0}
+  Message: {fileID: 454577983736698029, guid: 3ba0828b2b953a2429c7f36586117895, type: 3}
   Name: BigJacket
   Img: {fileID: 21300000, guid: b44007f8d7dd66d41a1d9b5898510f96, type: 3}
   Dist: 3
