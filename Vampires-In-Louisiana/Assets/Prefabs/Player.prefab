@@ -187,6 +187,8 @@ MonoBehaviour:
   near: 0
   currentText: 
   storyState: 0
+  blackScreen: {fileID: 0}
+  dialogueBox: {fileID: 0}
 --- !u!1001 &8928699660288455806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -244,6 +246,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+--- !u!1 &1623777323258234458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7881807149238628900, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
+  m_PrefabInstance: {fileID: 8928699660288455806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6477731031378880114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623777323258234458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753b103ddcb1ac54f8a695011aeb57e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  turnSpeed: 0.1
 --- !u!4 &1636997222177016782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7880970886039044016, guid: d36c43225f9391e4c8810c98eb7ef85e, type: 3}
