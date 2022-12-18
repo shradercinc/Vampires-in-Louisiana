@@ -4795,19 +4795,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: Worst.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: Best.Array.data[0]
-      value: Scarf
+      value: Scarf/Head
       objectReference: {fileID: 0}
     - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: Good.Array.data[0]
-      value: Bandages
+      value: Bandages/Head
       objectReference: {fileID: 0}
     - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: Worst.Array.data[0]
-      value: Knife
+      value: Knife/Head
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
+      propertyPath: Worst.Array.data[1]
+      value: Knife/Arm
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
+      propertyPath: Worst.Array.data[2]
+      value: Knife/Torso
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233487982251453571, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
+      propertyPath: Worst.Array.data[3]
+      value: Knife/Leg
       objectReference: {fileID: 0}
     - target: {fileID: 8808306396487563539, guid: 9616b101655bded4c8ec121cddac7993, type: 3}
       propertyPath: m_Pivot.x

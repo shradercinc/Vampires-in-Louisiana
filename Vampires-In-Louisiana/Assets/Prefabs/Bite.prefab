@@ -120,6 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c25def1d69f69549b287610d8a2cf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usable: []
+  itemString: 
 --- !u!1 &2963488061958783041
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,17 +171,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   problem: Bite
+  alignment: 0
   Head: {fileID: 2963488060890045053}
   ArmR: {fileID: 7443164191445040009}
-  ArmL: {fileID: 7443164191445040009}
   Torso: {fileID: 3606101940627398929}
   Legs: {fileID: 3261754754638128907}
   Best:
-  - Scarf
+  - Scarf/Head
   Good:
-  - Towel
+  - Towel/Head
   Bad: []
-  Worst: []
+  Worst:
+  - Knife/Head
+  - Knife/Arm
+  - Knife/Torso
+  - Knife/Leg
 --- !u!1 &3261754754638128907
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c25def1d69f69549b287610d8a2cf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usable: []
+  itemString: 
 --- !u!1 &3606101940627398929
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c25def1d69f69549b287610d8a2cf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usable: []
+  itemString: 
 --- !u!1 &7443164191445040009
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,3 +550,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c25def1d69f69549b287610d8a2cf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usable: []
+  itemString: 

@@ -24,10 +24,11 @@ public class AilmentManager : MonoBehaviour
     void Update()
     {
         alignment = 0;
-        var headItem = Head.GetComponent<Bodypart>().name + "/Head";
-        var armItem = ArmR.GetComponent<Bodypart>().name + "/Arm";
-        var torsoItem = ArmR.GetComponent<Bodypart>().name + "/Torso";
-        var legItem = ArmR.GetComponent<Bodypart>().name + "/Leg";
+        var headItem = Head.GetComponent<Bodypart>().itemString + "/Head";
+        var armItem = ArmR.GetComponent<Bodypart>().itemString + "/Arm";
+        var torsoItem = ArmR.GetComponent<Bodypart>().itemString + "/Torso";
+        var legItem = ArmR.GetComponent<Bodypart>().itemString + "/Leg";
+        print(headItem);
 
         foreach (var x in Best)
         {
