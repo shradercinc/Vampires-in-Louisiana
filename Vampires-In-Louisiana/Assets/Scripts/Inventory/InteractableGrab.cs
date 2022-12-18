@@ -36,12 +36,14 @@ public class InteractableGrab : MonoBehaviour
 
         if (Physics.Raycast(Pos.position, dir, out RaycastHit struck, Dist))
         {
+            Debug.DrawRay(Pos.position, dir, Color.red);
             if (struck.transform.tag == "Player")
             {
-                Debug.DrawRay(Pos.position, dir, Color.red);
+                Debug.DrawRay(Pos.position, dir, Color.blue);
                 TextPlatform.GetComponent<TMP_Text>().text = Name;
                 inrange = true;
-            }        //print("In range");
+            }
+            //print("In range");
         }
         else if (inrange == true)
         {
