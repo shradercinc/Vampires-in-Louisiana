@@ -23,6 +23,8 @@ public class DataLoader : MonoBehaviour
     public List<string> currentSpeaker = new List<string>();
 
     public bool near; //scenes are only set when they are near a specific target
+    private string NPCName = ""; //Prints the NPC's name at the bottom of the screen
+    public TMP_Text Prompt; //text that displays nearby NPCs names
     public string currentText;
     public int storyState = 0;
     bool storyTime = true;
@@ -31,6 +33,7 @@ public class DataLoader : MonoBehaviour
 
     private void Start()
     {
+        Prompt = GameObject.FindGameObjectWithTag("NPCPrompt").GetComponent<TMP_Text>();
         textLine.enabled = true;
         textName.enabled = true;
         mydata = CSVReader.Read(day);
@@ -47,12 +50,14 @@ public class DataLoader : MonoBehaviour
         {
             near = true;
             sceneKey = target.gameObject.GetComponent<npcCall>().sceneSend;
+            NPCName = target.gameObject.GetComponent<npcCall>().ThisName;
         }
 
     }
     private void OnTriggerExit(Collider other)
     {
         near = false;
+        NPCName = "";
     }
     //---------------------------------------------
 
@@ -138,6 +143,14 @@ public class DataLoader : MonoBehaviour
         else
         if (near)
         {
+            if (dialogueBox.enabled == false)
+            {
+                Prompt.text = "Talk to " + NPCName;
+            }
+            else
+            {
+                Prompt.text = "";
+            }
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (currentDialogue.Count == 0)
@@ -161,11 +174,15 @@ public class DataLoader : MonoBehaviour
             }
         }
         else
-        if (Input.GetKey(KeyCode.B))   //TESTING KEY FOR GOING TO BED ****************************
         {
-            storyState = 5;
-            Greet();
+            if (Input.GetKey(KeyCode.B))   //TESTING KEY FOR GOING TO BED ****************************
+            {
+                storyState = 5;
+                Greet();
+            }
+            Prompt.text = "";
         }
+
 
         textLine.text = currentDialogue[offset];
         textName.text = currentSpeaker[offset];

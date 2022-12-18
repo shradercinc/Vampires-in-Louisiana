@@ -12,6 +12,7 @@ public class npcCall : MonoBehaviour
     public string MR;
     public string NR;
     public string MNR;
+    public string ThisName;
 
     public string sceneSend; //scene being told to the dialogue display.
     public float socialStat;

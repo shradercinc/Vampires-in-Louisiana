@@ -10,6 +10,7 @@ TagManager:
   - Icon
   - NPC
   - Alert
+  - NPCPrompt
   layers:
   - Default
   - TransparentFX

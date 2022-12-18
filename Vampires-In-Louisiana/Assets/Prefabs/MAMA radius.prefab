@@ -63,6 +63,7 @@ MonoBehaviour:
   MR: MAMA_MR
   NR: MAMA_NR
   MNR: MAMA_MNR
+  ThisName: Mama
   sceneSend: 
   socialStat: 0
   alignmentManager: {fileID: 0}

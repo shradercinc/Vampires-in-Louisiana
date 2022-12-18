@@ -14104,6 +14104,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1543472689}
     m_Modifications:
     - target: {fileID: 5801798728306929216, guid: 49fd71f33ea3bf44aa4605614d6cab10, type: 3}
+      propertyPath: ThisName
+      value: Mama
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801798728306929216, guid: 49fd71f33ea3bf44aa4605614d6cab10, type: 3}
       propertyPath: alignmentManager
       value: 
       objectReference: {fileID: 751270711}
@@ -31450,6 +31454,7 @@ MonoBehaviour:
   currentDialogue: []
   currentSpeaker: []
   near: 0
+  Prompt: {fileID: 0}
   currentText: 
   storyState: 0
   blackScreen: {fileID: 4251444427574425622}
