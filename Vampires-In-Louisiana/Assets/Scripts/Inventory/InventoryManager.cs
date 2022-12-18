@@ -70,13 +70,24 @@ public class InventoryManager : MonoBehaviour
                 //iterates through list creating icon prefabs and passing important variables to them in ICON SCRIPT
                 foreach (Inventory x in Inv)
                 {
-                    var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
-                    ick.GetComponent<Icon>().Txr = x.InIcon;
-                    ick.GetComponentInChildren<TMP_Text>().text = x.InName;
-                    ick.GetComponent<Icon>().itemName = x.InName;
-                    ick.GetComponent<Icon>().InventoryManager = this.gameObject;
-                    ick.GetComponent<Icon>().listNo = LP;
-                    //print(x.InName + " with " + x.InIcon);
+                    if (LP > 5)
+                    {
+                        var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x + 400, Tex.transform.position.y - (2.3f * Iheight) * (LP - 6), Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
+                        ick.GetComponent<Icon>().Txr = x.InIcon;
+                        ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                        ick.GetComponent<Icon>().itemName = x.InName;
+                        ick.GetComponent<Icon>().InventoryManager = this.gameObject;
+                        ick.GetComponent<Icon>().listNo = LP;
+                    }
+                    else
+                    {
+                        var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
+                        ick.GetComponent<Icon>().Txr = x.InIcon;
+                        ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                        ick.GetComponent<Icon>().itemName = x.InName;
+                        ick.GetComponent<Icon>().InventoryManager = this.gameObject;
+                        ick.GetComponent<Icon>().listNo = LP;
+                    }
                     LP++;
                 }
                 ListMade = true;
@@ -97,12 +108,25 @@ public class InventoryManager : MonoBehaviour
             print("Redolist");
             foreach (Inventory x in Inv)
             {
-                var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
-                ick.GetComponent<Icon>().Txr = x.InIcon;
-                ick.GetComponentInChildren<TMP_Text>().text = x.InName;
-                ick.GetComponent<Icon>().itemName = x.InName;
-                ick.GetComponent<Icon>().InventoryManager = this.gameObject;
-                ick.GetComponent<Icon>().listNo = LP;
+                if (LP > 5)
+                {
+                    var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x + 400, Tex.transform.position.y - (2.3f * Iheight) * (LP - 6), Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
+                    ick.GetComponent<Icon>().Txr = x.InIcon;
+                    ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                    ick.GetComponent<Icon>().itemName = x.InName;
+                    ick.GetComponent<Icon>().InventoryManager = this.gameObject;
+                    ick.GetComponent<Icon>().listNo = LP;
+                }
+                else
+                {
+                    var ick = Object.Instantiate(Icon, new Vector3(Tex.transform.position.x, Tex.transform.position.y - (2.3f * Iheight) * LP, Tex.transform.position.z), Tex.transform.rotation, Tex.transform);
+                    ick.GetComponent<Icon>().Txr = x.InIcon;
+                    ick.GetComponentInChildren<TMP_Text>().text = x.InName;
+                    ick.GetComponent<Icon>().itemName = x.InName;
+                    ick.GetComponent<Icon>().InventoryManager = this.gameObject;
+                    ick.GetComponent<Icon>().listNo = LP;
+                }
+
                 //print(x.InName + " with " + x.InIcon);
                 LP++;
             }
