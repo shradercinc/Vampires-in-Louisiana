@@ -1,0 +1,94 @@
+Key,Speaking Character,Line
+WakeUp,Narrator,"By the time your head hits the pillow, the entire wound had miraculously closed. Only a slight scar remained. "
+WakeUp,Narrator,Thoughts race through your head as you contemplate the events of the past few days.
+WakeUp,Narrator,What are you going to do? How much worse is it going to get? Are people going to find you out? Are you going to be exiled?
+WakeUp,Narrator,"You stay up for hours fearing the worst, but eventually, you pass out."
+WakeUp,Narrator,...
+WakeUp,Narrator,An awful ache runs throughout your whole body as you sit up from your cot.
+WakeUp,Narrator,Your muscles fight against your every move as you try to freshen up a little bit before walking out to greet everyone.
+WakeUp,Narrator,"Looking down at your arms, you see that your skin is... tearing? "
+WakeUp,Narrator,Oh fuck it's not just your skin. As you lift your right arm to your face you feel -and see- your bicep tendons tear and snap.
+WakeUp,Narrator,"You need to find something, ANYTHING to keep these wounds closed."
+,,
+Story,Narrator,Your muscles are tearing and splitting anytime you move. 
+,,
+AilHint,Vela,"I need to find a brace, or a wrap, or SOMETHING to keep this damage from getting any worse."
+,,
+NightTime,Narrator,"As you wind down for the night, you hesitantly unveil your arm to see that your bicep has fully healed, leaving behind a vicious scar."
+NightTime,Narrator,"You exhale, letting out an immense sign of relief. It's still not quite comfortable to lay down, no matter how much you fidget."
+NightTime,Narrator,At least you made it through another day. You pass out fretting for what horrorific symptom tomorrow might bring.
+,,
+MAMA_MPR,Mama,Hiya there hun!
+MAMA_MPR,Narrator,"She's distracted, tallying up supply stores."
+MAMA_MPR,Narrator,You manage to squeeze out an unassuming response-
+MAMA_MPR,Vela,Hey. Finding anything noteworthy in there?
+MAMA_MPR,Mama,"Thankfully, no! Everything seems to be exactly where it should be. "
+MAMA_MPR,Mama,"Some of our spare clothes seem to be disappearing from around camp, though."
+MAMA_MPR,Narrator,You try to act as though you definitely aren't the person swiping every loose t-shirt and coat you can get your hands on.
+MAMA_MPR,Vela,Haha! We should keep our eyes on the local raccoon population! I'm sure those dirty bastards would love to wrap themselves in our exquisite duds.
+MAMA_MPR,Mama,Har har. I'll keep my eye out. Take care Vela.
+,,
+MAMA_PR,Mama,"Oh, hey there Vela."
+MAMA_PR,Narrator,Looks like she's busy taking notes on our supply stores.
+MAMA_PR,Vela,How's it going?
+MAMA_PR,Narrator,"She looks over, with a slightly suspicious eye."
+MAMA_PR,Mama,Are you trying to butter me up so I'll overlook your judicious use of our medical supplies recently?
+MAMA_PR,Vela,"Uh,"
+MAMA_PR,Mama,"We've got people sick in the camp, Vela, try and leave what you can for people who actually need the meds, alright?"
+MAMA_PR,Mama,"Say, where'd you get that shirt? Isn't that Jean's?"
+MAMA_PR,Vela,"Gotta go! Maria wanted to speak with me about uh, hunting parties? See you!"
+,,
+MAMA_MR,Mama,Hey Vela-
+MAMA_MR,Mama,"Goodness, are you alright? Your skin looks horrendous!"
+MAMA_MR,Mama,You need to go to the medical tent. Now. 
+MAMA_MR,Mama,"Leaving a wound like that to fester is a surefire way to attract vampires, and we wouldn't survive a raid in our current state. "
+MAMA_MR,Mama,"For the sake of everyone here, please go take care of that."
+MAMA_MR,Narrator,"She shuns you away and continues her work, shaken"
+,,
+MAMA_NR,Narrator,She takes one look at you and turns around
+MAMA_NR,Mama,"Good lord, Vela! What are you doing walking around looking like that? "
+MAMA_NR,Mama,"Please, it may be the end of the world but that doesn't mean you should stop caring about basic hygeine!"
+MAMA_NR,Mama,"I know you're recovering still, but you need to change those bandages every now and then so your wounds don't get infected!"
+MAMA_NR,Mama,"Christ, child. Get out of here and don't come back until you're not a walking safety hazard."
+MAMA_NR,Narrator,She shoe-horns you away from the supplies tent and refuses to listen to any of your attempts at pushback. 
+,,
+MAMA_MNR,Mama,Hi Vela-
+MAMA_MNR,Narrator,She drops her clipboard and covers her mouth to muffle an involuntary scream.
+MAMA_MNR,Mama,"Christ, what's happening to you?"
+MAMA_MNR,Mama,Why- how- are you walking around upright with those kinds of wounds?
+MAMA_MNR,Mama,"Get- please- go get help, go to the medical tent, something, I can't look at you any longer or I'm gonna vomit."
+,,
+MARIA_MPR,Maria,Vela! So good to see you up and moving about today!
+MARIA_MPR,Maria,You ready to get back out there and do some scavenging for us?
+MARIA_MPR,Maria,"We're happy to let you take as much time as you need to rest and recover, but I'd be lying if I said we weren't suffering from your absence in the gathering department."
+MARIA_MPR,Narrator,"You try and compose yourself to match Maria's enthusiasm, doing all you can to not let your face show the immense, splitting pain you're in."
+MARIA_MPR,Vela,"I feel myself on the upswing, thankfully, but too much exertion would NOT be a good idea for my long term health right now."
+MARIA_MPR,Vela,"I think I better get back to my tent soon, actually. I'm glad I came out to get some sun and talk, but I might collapse at any moment."
+MARIA_MPR,Maria,"Goodness! In that case, get out of my sight! I'll arrange for someone to bring your meal to your tent tonight. "
+MARIA_MPR,Maria,"Rest up, bud!"
+,,
+MARIA_PR,Narrator ,You struggle to compose yourself as you walk up to check in with Maria.
+MARIA_PR,Vela,"Hey there, oh ferocious leader of ours!"
+MARIA_PR,Maria,"Vela! Good to see you out and about, from the looks of things though, you probably shouldn't be."
+MARIA_PR,Narrator ,Maria shoots you a soul-piercing glare.
+MARIA_PR,Maria,I thought our policy on recovery was clear- don't leave your tent until you've recovered!
+MARIA_PR,Maria,"You come out too early, and it'll double the time you spend out of commission! We're already stretched thin enough as it is."
+MARIA_PR,Maria,Get back inside Vela.
+MARIA_PR,Narrator ,"Your muscles, still screaming in pain with every slight adjustment, couldn't agree more."
+,,
+MARIA_MR,Narrator,"You walk up to Maria to check in. You think you covered up most of the obviously visible wounds, but it's hard to tell with how fast your head has been spinning."
+MARIA_MR,Narrator,Your voice cracks.
+MARIA_MR,Vela,Hey there Maria...
+MARIA_MR,Narrator,Her disappointment to see you walking about cuts through you like a rusty chainsaw.
+MARIA_MR,Maria,"You're putting all of us in danger, walking around with wounds like that exposed."
+MARIA_MR,Maria,I'll send someone to deliver your food and meds later.
+MARIA_MR,Maria,Get back to your tent. Now.
+,,
+MARIA_NR,Maria,What are you doing out looking like that!?
+MARIA_NR,Maria,Get the hell out of my sight!
+MARIA_NR,Maria,I don't wanna see you again until you're healed up!
+,,
+MARIA_MNR,Narrator,"Maria recoils, revolted by the sight of your injuries."
+MARIA_MNR,Maria,What the FUCK Vela?!
+MARIA_MNR,Maria,Are those new!?!
+MARIA_MNR,Maria,Get back in your tent RIGHT NOW.

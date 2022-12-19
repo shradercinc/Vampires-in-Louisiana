@@ -1,14 +1,13 @@
 Key,Speaking Character,Line
-Intro,Narrator,Your head is killing you. There is a sharp pain in your neck that won't go away.
-Intro,Narrator,The events of the past night flash before your eyes in pinpricks. 
-Intro,Narrator,Two glowing eyes. A dozen needles in your neck. A million bats flying around inside your head.
-Intro,Narrator,Your knuckles are bruised from struggle and you're lucky you got out alive.
-Intro,Narrator,There isn't really time to dwell on it though. You got bit.
-Intro,Narrator,And now you've gotta deal with it.
-,,
+WakeUp,Narrator,Your head is killing you. There is a sharp pain in your neck that won't go away.
+WakeUp,Narrator,The events of the past night flash before your eyes in pinpricks. 
+WakeUp,Narrator,Two glowing eyes. A dozen needles in your neck. A million bats flying around inside your head.
+WakeUp,Narrator,Your knuckles are bruised from struggle and you're lucky you got out alive.
+WakeUp,Narrator,There isn't really time to dwell on it though. You got bit.
+WakeUp,Narrator,And now you've gotta deal with it.
 WakeUp,Narrator,The sun is glaring down on your face from a broken window as you stir awake. 
 WakeUp,Narrator,"Luckily, you managed to crawl back to camp last night without anyone seeing your wound. "
-WakeUp,Narrator,"It was a stupid decision to go out on your own, but it had been so long since you had any privacy. The apocalypse really doesn't let people have any alone time."
+WakeUp,Narrator,"It was a stupid decision to go out on your own, but it'd been so long since you had any privacy. The apocalypse really doesn't let people have any alone time."
 WakeUp,Narrator,The campgrounds have been suffocating. You've always been the odd one out.
 WakeUp,Narrator,"Masking whatever your insides have been telling you, just going along with what everyone expects."
 WakeUp,Narrator,Parading around like you know what you're doing gets exhausting.
@@ -20,10 +19,10 @@ AilHint,Narrator,"You peel yourself up from your bed. In the reflection of what 
 AilHint,Narrator,"It felt like a bunch of pins and needles, but it looks like someone took a beartrap to you. The wound scabbed over and stopped bleeding. It still looks awful, though. "
 AilHint,Vela,I gotta cover this thing somehow. In a way that won't make it obvious. I need time to figure out what to do with myself.
 ,,
-NightTime,Narrator,"By the time your head hit the pillow, the entire wound had miraculously closed. Only a slight scar remained. You went to bed."
-,,
-,,
-,,
+NightTime,Narrator,"By the time your head hits the pillow, the entire wound had miraculously closed. Only a slight scar remained. "
+NightTime,Narrator,Thoughts race through your head as you contemplate the events of the past few days.
+NightTime,Narrator,What are you going to do? How much worse is it going to get? Are people going to find you out? Are you going to be exiled?
+NightTime,Narrator,"You stay up for hours fearing the worst, but eventually, you pass out."
 ,,
 MAMA_MPR,Mama,"Hey, girl. Rise and shine. I was starting to wonder where you were. "
 MAMA_MPR,Narrator,"She glances at the scarf wrapped around your neck, hiding the bite. "
@@ -31,14 +30,14 @@ MAMA_MPR,Mama,"Oh, where did you find that scarf? Was that from scavenging recen
 MAMA_MPR,Vela,"Oh, this? Uh, yeah. Got lucky."
 MAMA_MPR,Mama,I've been looking for one myself. That one's lovely on you.
 MAMA_MPR,Narrator,She smiles and faces back to her work.
-MAMA_MPR,Mama,The people 'round camp have missed you. You should go say hi to everyone before you head back in.
+MAMA_MPR,Mama,The people 'round camp have missed you. You should go say hi to everyone before you head back to your tent for the night.
 ,,
 MAMA_PR,Mama,How are you feeling? You've been locked in your little cave for a while now. You got a fever?
 MAMA_PR,Narrator,She reaches toward your forehead with the back of her hand to feel your temperature. You immediately swing back before she can feel how icy-cold your skin is.
 MAMA_PR,Mama,Whoa whoa whoa! Nevermind then! 
 MAMA_PR,Narrator,"She played it off jokingly, but you can tell that she was a little taken aback. "
 MAMA_PR,Vela,I'm just on a walk. Still feel like crap.
-MAMA_PR,Mama,Alright. I'm here if you need me.
+MAMA_PR,Mama,Alright. I'm here if you need me. You should head back to your tent as soon as you get done out here to rest up.
 MAMA_PR,Vela,I know. Thanks Ma. 
 ,,
 MAMA_MR,Mama,Vela. Its been a bit since you were out here! 
@@ -48,7 +47,7 @@ MAMA_MR,Mama,How very non-specific. I don't believe you.
 MAMA_MR,Narrator,"She eyes you up and down, looking for a sign of anything that could've happened. As she's about to ask something, you spit out an excuse."
 MAMA_MR,Vela,It's none of your business. 
 MAMA_MR,Narrator,She frowns. Intensely. You regret the way that it came out. 
-MAMA_MR,Mama,Right. 
+MAMA_MR,Mama,"Right. Well please make sure you get some rest tonight, we'll send you some stuff to your tent."
 ,,
 MAMA_NR,Vela,"Hey, Ma. "
 MAMA_NR,Narrator,"She looks up at you from her work and jumps, eyes wide at your condition. "
@@ -56,8 +55,17 @@ MAMA_NR,Mama,"Jesus Vela, you scared me. Where is all that blood coming from? "
 MAMA_NR,Narrator,"She reaches toward you, but you dodge before she can do anything. She looks angry in response to this."
 MAMA_NR,Vela,Uh- It's nothing. It was supposed to be funny!
 MAMA_NR,Narrator,The lie works with little to no success. 
-MAMA_NR,Mama,What is wrong with you? You're scaring people. You're scaring me. Go get cleaned up.
+MAMA_NR,Mama,What is wrong with you? You're scaring people. You're scaring me. Go get cleaned up in your tent or get some rest before you walk around looking like that.
 MAMA_NR,Mama,You're lucky I'm not Maria. She'd have shot you dead by now. 
+,,
+MAMA_MNR,Vela,"Hey, Ma. "
+MAMA_MNR,Narrator,"She looks up at you from her work and jumps, eyes wide at your condition. "
+MAMA_MNR,Mama,"Jesus Vela, you scared me. Where is all that blood coming from? "
+MAMA_MNR,Narrator,"She reaches toward you, but you dodge before she can do anything. She looks angry in response to this."
+MAMA_MNR,Vela,Uh- It's nothing. It was supposed to be funny!
+MAMA_MNR,Narrator,The lie works with little to no success. 
+MAMA_MNR,Mama,What is wrong with you? You're scaring people. You're scaring me. Go get cleaned up in your tent or get some rest before you walk around looking like that.
+MAMA_MNR,Mama,You're lucky I'm not Maria. She'd have shot you dead by now. 
 ,,
 JEAN_MPR,Jean,Vela! You've finally crawled out. Back in the swing of things?
 JEAN_MPR,Vela,Mostly. I'm still a little-
@@ -79,14 +87,25 @@ JEAN_MR,Jean,"Yikes- oh, uh. Sorry. You don't look too hot."
 JEAN_MR,Jean,What are you doing out here? You should go back inside.
 JEAN_MR,Jean,"Or at the very least, get out of my kitchen."
 ,,
-,,
 JEAN_NR,Narrator,The chef briefly glaced up at you and immediately looked away with repulsion. 
 JEAN_NR,Jean,"You know, it's not wise to be in the kitchen when you're sick."
 JEAN_NR,Narrator,"He stares straight at you, not even trying to hold back irritation."
 JEAN_NR,Narrator,It would be wise to keep up appearances. People are quick to judge.
 JEAN_NR,Narrator,You back away from the kitchen and he shuffles back to his work alone.
 ,,
+JEAN_MNR,Narrator,The chef briefly glaced up at you and immediately looked away with repulsion. 
+JEAN_MNR,Jean,"You know, it's not wise to be in the kitchen when you're sick."
+JEAN_MNR,Narrator,"He stares straight at you, not even trying to hold back irritation."
+JEAN_MNR,Narrator,It would be wise to keep up appearances. People are quick to judge.
+JEAN_MNR,Narrator,You back away from the kitchen and he shuffles back to his work alone.
 ,,
-RAND_PR,Camper,Pos
-RAND_MR,Camper,Mid 
-RAND_NR,Camper,Neg
+RAND_MPR,Camper,"Hey, Vela right? Good to see you up and about!"
+,,
+RAND_PR,Camper,"Hey, Vela right? Good to see you up and about!"
+,,
+RAND_MR,Camper,"Hey, uh, stay safe out there."
+RAND_MR,Narrator,"Beneath the venear of polite expression, you sense a clear note of concern"
+,,
+RAND_NR,Camper,"Woah shit, what bear mauled you?"
+,,
+RAND_MNR,Camper,"Woah shit, what bear mauled you?"

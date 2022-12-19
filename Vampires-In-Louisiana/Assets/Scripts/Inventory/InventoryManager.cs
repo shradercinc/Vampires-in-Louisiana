@@ -24,13 +24,11 @@ public class InventoryManager : MonoBehaviour
     //list containing item information 
     public List<Inventory> Inv = new List<Inventory>();
     //Connected to the start position of the list, not written in
-    private TMP_Text Tex;
+    public TMP_Text Tex;
     //Checks if the visible list is enabled or disabled
     public bool checking = false;
     //semi redundant? OLd variable that adjusts icon size
     public float Iheight = 0;
-    //used campus
-    public Canvas Can;
     //iteration variable for creating visible inventory list
     public int LP = 0;
     //Checks to see if the list is made

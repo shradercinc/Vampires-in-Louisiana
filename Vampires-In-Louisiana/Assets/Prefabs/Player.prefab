@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8928699659394650802}
   - component: {fileID: 8928699659394650801}
   - component: {fileID: 8928699659394650800}
+  - component: {fileID: 7084135992861727001}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -185,10 +186,23 @@ MonoBehaviour:
   currentDialogue: []
   currentSpeaker: []
   near: 0
+  Prompt: {fileID: 0}
   currentText: 
   storyState: 0
   blackScreen: {fileID: 0}
   dialogueBox: {fileID: 0}
+--- !u!114 &7084135992861727001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8928699659394650809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8136a70d8ca7f047a494d9408f1554d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8928699660288455806
 PrefabInstance:
   m_ObjectHideFlags: 0

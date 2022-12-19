@@ -11,6 +11,8 @@ TagManager:
   - NPC
   - Alert
   - NPCPrompt
+  - Aligner
+  - FinalAlignment
   layers:
   - Default
   - TransparentFX

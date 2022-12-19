@@ -21,6 +21,7 @@ public class DataLoader : MonoBehaviour
     public int offset = -1;
     public List<string> currentDialogue = new List<string>();
     public List<string> currentSpeaker = new List<string>();
+    public GameObject TalkerObject = null;
 
     public bool near; //scenes are only set when they are near a specific target
     private string NPCName = ""; //Prints the NPC's name at the bottom of the screen
@@ -51,6 +52,7 @@ public class DataLoader : MonoBehaviour
             near = true;
             sceneKey = target.gameObject.GetComponent<npcCall>().sceneSend;
             NPCName = target.gameObject.GetComponent<npcCall>().ThisName;
+            TalkerObject = target.gameObject;
         }
 
     }
@@ -157,6 +159,7 @@ public class DataLoader : MonoBehaviour
                 {
                     fetchDialogue(sceneKey);
                     dialogueBox.enabled = true;
+                    TalkerObject.GetComponent<npcCall>().hasTalked++;
                 }
 
                 offset++;

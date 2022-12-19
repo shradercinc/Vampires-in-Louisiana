@@ -1,5 +1,3 @@
-// by Teemu Ikonen
-
 using UnityEngine;
 using System;
 using System.Collections;

@@ -1,0 +1,92 @@
+Key,Speaking Character,Line
+WakeUp,Narrator,"As you wind down for the night, you hesitantly unveil your arm to see that your bicep has fully healed, leaving behind a vicious scar."
+WakeUp,Narrator,"You exhale, letting out an immense sign of relief. It's still not quite comfortable to lay down, no matter how much you fidget."
+WakeUp,Narrator,At least you made it through another day. You pass out fretting for what horrorific symptom tomorrow might bring.
+WakeUp,Narrator,...
+WakeUp,Narrator ,"You awake to a disturbing sense of wet warmth spreading across your skin, a new symptom of the curse most likely"
+WakeUp,Vela,What the Fuck?
+WakeUp,Narrator  ,"Throwing back the sheets you reveal an unsightly image of gore, your organs spilling out across their stomach and onto your bed "
+WakeUp,Vela ,WHAT THE FUCK!-
+WakeUp,Narrator,"Despite the seemingly mortal wound you feel nothing, apart from the emotional stress of seeing one's insides become their outsides"
+WakeUp,Narrator,"From down the hall you hear a panicked rustling, no doubt Mama reacting to your sounds of distress, an increasing occurance you think to yourself"
+WakeUp,Mama,Vela!? Luv? Is everything alright?
+WakeUp,Vela,I- Ah- I'm fine mama! Just... thought I lost something!
+WakeUp,Mama,"Ah, ok... Just... Let me know if you need anything"
+WakeUp,Narrator,"With the situation temporaly under control, you turn your attention to more pressing matters. There is no way Mama would leave you be all day, especially after that performance"
+WakeUp,Narrator,"First you need to find something to cover up, at least for now, then... perhaps the camp clinic has some sutures you could 'borrow'. In the meantime you scoop your warm guts into your arms, carefully waddling through the room with them"
+,,
+AilHint,Vela,How in the hell am I going to hide THIS??
+,,
+NightTime,Narrator,"As you wind down for the night, some of your organs begin to recede, "
+,,
+MAMA_MPR,Narrator,"You find the camp mom standing over a collection of opened crates, their contents splayed across the ground reminding you of your... ""State"""
+MAMA_MPR,Mama,"Ah hey Vela, glad you got whatever it is you were looking for,"
+MAMA_MPR,Narrator,"The woman's eyes furrow at the pile before her and your eyes wander to the list in her hand, a catalogue of items, some scribbled over or erased, as disorganized as the stack"
+MAMA_MPR,Vela,"Hey mama, I was going to head over to the clinic to pick some supplies, I'll be out for a bit"
+MAMA_MPR,Narrator,Her eyes flash to your basket for a moment before looking back up to you with mild concern
+MAMA_MPR,Mama,"Alright child, keep safe on the way there, everyone's so... on edge these last couple of days..."
+MAMA_MPR,Narrator,You breath an internal sigh of relief as you make your way out towards the clinic
+,,
+MAMA_PR,Narrator,"You find the camp mom standing over a collection of opened crates, their contents splayed across the ground reminding you of your... ""State"""
+MAMA_PR,Mama ,"Vela, what's the big jacket for? Bit hot outside for it"
+MAMA_PR,Narrator ,"The woman squints her eyes at you for a moment, attempting to deduce a reasoning"
+MAMA_PR,Vela,"Ah yea, I don't know maybe I'm still kicking what I had a few days ago? Felt a bit cold is all"
+MAMA_PR,Narrator,Mama pauses for a moment longer before shrugging her shoulders 
+MAMA_PR,Mama ,"Alright child, Just, stay safe, people are on edge, feels like a jacket is enough of an excuse these days"
+MAMA_PR,Narrator ,"With a huff the woman turns back to her work, cataloging the disorganized pile on an old clipboard"
+,,
+MAMA_MR,Narrator ,"You find the camp mom standing over a collection of opened crates, as she turns around she startles and stumbles back into the boxes"
+MAMA_MR,Mama ,DEAR GOD- WHA- VELA?- oh no Not you too!
+MAMA_MR,Vela,Wait! mama! I can explain
+MAMA_MR,Narrator ,"It's too late, mama flees out the doorway calling for help, you can already hear the camp springing to action..."
+MAMA_MR,GAME OVER,
+,,
+MAMA_NR,Narrator ,"You find the camp mom standing over a collection of opened crates, as she turns around she startles and stumbles back into the boxes"
+MAMA_NR,Mama ,DEAR GOD- WHA- VELA?- oh no Not you too!
+MAMA_NR,Vela,Wait! mama! I can explain
+MAMA_NR,Narrator ,"It's too late, mama flees out the doorway calling for help, you can already hear the camp springing to action..."
+MAMA_NR,GAME OVER,
+,,
+MAMA_MNR,Narrator ,"You find the camp mom standing over a collection of opened crates, as she turns around she startles and stumbles back into the boxes"
+MAMA_MNR,Mama ,DEAR GOD- WHA- VELA?- oh no Not you too!
+MAMA_MNR,Vela,Wait! mama! I can explain
+MAMA_MNR,Narrator ,"It's too late, mama flees out the doorway calling for help, you can already hear the camp springing to action..."
+MAMA_MNR,GAME OVER,
+,,
+NURSE_MPR,Nurse,Next?
+NURSE_MPR,Narrator,A particularly tall and thin figure in a dirty white coat stands next to what counts for the camp clinic. Gloves spill out of his coat pockets and their eyes wear dark circles as they turn their attention to you
+NURSE_MPR,Nurse,"Vela? Feeling alright? Your mom should have some leftover cold meds for whatever you had, I gave her a couple days worth"
+NURSE_MPR,Narrator,His eyes flick down to the basket holding your guts. You nervously adjust it feeling the slight *slosh* as you do
+NURSE_MPR,Nurse,"Hope there's nothing contagious in there, can't be bringing infected meats into the sick bay."
+NURSE_MPR,Vela,"Nope! All natural, all healthy!"
+NURSE_MPR,Vela,See you around!
+NURSE_MPR,Narrator,You carefully turn around and walk away.
+,,
+NURSE_PR,Nurse,Next?
+NURSE_PR,Narrator,"The nurse eyes you suspiciously, his eyes lingering on the bulge around your stomach underneath the coat."
+NURSE_PR,Nurse,"Are you smuggling anything in there? If you're trying to get more supplies we're already exceedingly low, and I'd have to report you to Maria for that grave offense."
+NURSE_PR,Vela,"Nope! I'm just really uh, bloated? Today."
+NURSE_PR,Nurse,"Uh huh, alright well if you don't have any urget medical needs I think I better see the next patient."
+NURSE_PR,Vela,"Sure, see you around!"
+NURSE_PR,Nurse,Mhm.
+,,
+NURSE_MR,Nurse,Next-
+NURSE_MR,Nurse,JESUS FUCKING CHRIST ARE THOSE ORGANS?!
+NURSE_MR,Narrator,He calls out.
+NURSE_MR,Nurse,"MARIA, JEAN, ANYONE COME HELP ME, VELA'S ORGANS ARE SPILLING OUT"
+NURSE_MR,Narrator,"You're flooded by the crowd, who decides to toss you out to the wind. In their eyes, by this point you're either a vampire or bait for one, and the group comes first."
+NURSE_MR,GAME OVER,
+,,
+NURSE_NR,Nurse,Next-
+NURSE_NR,Nurse,JESUS FUCKING CHRIST ARE THOSE ORGANS?!
+NURSE_NR,Narrator,He calls out.
+NURSE_NR,Nurse,"MARIA, JEAN, ANYONE COME HELP ME, VELA'S ORGANS ARE SPILLING OUT"
+NURSE_NR,Narrator,"You're flooded by the crowd, who decides to toss you out to the wind. In their eyes, by this point you're either a vampire or bait for one, and the group comes first."
+NURSE_NR,GAME OVER,
+,,
+NURSE_MNR,Nurse,Next-
+NURSE_MNR,Nurse,JESUS FUCKING CHRIST ARE THOSE ORGANS?!
+NURSE_MNR,Narrator,He calls out.
+NURSE_MNR,Nurse,"MARIA, JEAN, ANYONE COME HELP ME, VELA'S ORGANS ARE SPILLING OUT"
+NURSE_MNR,Narrator,"You're flooded by the crowd, who decides to toss you out to the wind. In their eyes, by this point you're either a vampire or bait for one, and the group comes first."
+NURSE_MNR,GAME OVER,
