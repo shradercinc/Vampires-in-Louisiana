@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Final Rooms/Day 3.unity
     guid: 6ae68b50953442a4abdf37bd5168de42
   - enabled: 1
+    path: Assets/Scenes/Final Rooms/END NEG.unity
+    guid: e86addf3c9877b24e935afb40e5ee3fd
+  - enabled: 1
+    path: Assets/Scenes/Final Rooms/END NUE.unity
+    guid: 1175bc2634285034eb70686ca25c895a
+  - enabled: 1
     path: Assets/Scenes/Final Rooms/END POS.unity
-    guid: 840fe0a71940c844c82abe0483c27a77
+    guid: fca0af0b972d1ee4988ab4d1d8c315df
   m_configObjects: {}

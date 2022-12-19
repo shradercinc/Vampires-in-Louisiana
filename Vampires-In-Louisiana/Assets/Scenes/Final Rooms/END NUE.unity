@@ -30380,7 +30380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc38ff06c444f26458779ae4badd779b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  day: Daily narrative - Ending POS
+  day: Daily narrative - Ending NUE
   textName: {fileID: 7231924543847445059}
   textLine: {fileID: 7231924542165764441}
   sceneKey: 

@@ -729,6 +729,10 @@ PrefabInstance:
       value: MARIA_MPR
       objectReference: {fileID: 0}
     - target: {fileID: 5801798728306929216, guid: 49fd71f33ea3bf44aa4605614d6cab10, type: 3}
+      propertyPath: ThisName
+      value: Maria
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801798728306929216, guid: 49fd71f33ea3bf44aa4605614d6cab10, type: 3}
       propertyPath: alignmentManager
       value: 
       objectReference: {fileID: 751270711}
@@ -29554,6 +29558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BANDAGES
       objectReference: {fileID: 0}
+    - target: {fileID: 3216235634347710100, guid: 519fbeded6cac4b4ab1b87c0b165a181, type: 3}
+      propertyPath: Img
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e05ed6155fc88244a906361bf39bd41, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 519fbeded6cac4b4ab1b87c0b165a181, type: 3}
 --- !u!4 &1856753325 stripped
@@ -31384,7 +31392,7 @@ MonoBehaviour:
   Player: {fileID: 0}
   Message: {fileID: 454577983736698029, guid: 3ba0828b2b953a2429c7f36586117895, type: 3}
   Name: FacialTissue
-  Img: {fileID: 21300000, guid: df8ff06b077f4af4596f9786984e0cce, type: 3}
+  Img: {fileID: 21300000, guid: 45c47199fe810864b85aa413f1bac369, type: 3}
   Dist: 3
 --- !u!108 &2017170099
 Light:

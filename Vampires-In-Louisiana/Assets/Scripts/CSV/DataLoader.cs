@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DataLoader : MonoBehaviour
 {
@@ -191,6 +192,11 @@ public class DataLoader : MonoBehaviour
 
         textLine.text = currentDialogue[offset];
         textName.text = currentSpeaker[offset];
+        if (textName.text == "GAME OVER")
+        {
+            SceneManager.LoadScene("END NEG");
+        }
+
 
     }
 
