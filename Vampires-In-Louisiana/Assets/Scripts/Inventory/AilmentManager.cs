@@ -28,7 +28,6 @@ public class AilmentManager : MonoBehaviour
         var armItem = ArmR.GetComponent<Bodypart>().itemString + "/Arm";
         var torsoItem = ArmR.GetComponent<Bodypart>().itemString + "/Torso";
         var legItem = ArmR.GetComponent<Bodypart>().itemString + "/Leg";
-        print(headItem);
 
         foreach (var x in Best)
         {

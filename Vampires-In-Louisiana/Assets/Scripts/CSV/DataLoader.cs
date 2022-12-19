@@ -175,11 +175,13 @@ public class DataLoader : MonoBehaviour
         }
         else
         {
+            /*
             if (Input.GetKey(KeyCode.B))   //TESTING KEY FOR GOING TO BED ****************************
             {
                 storyState = 5;
                 Greet();
             }
+            */
             Prompt.text = "";
         }
 
